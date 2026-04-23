@@ -1,0 +1,32 @@
+{
+ "attach_files": "",
+ "attach_print": 0,
+ "channel": "Email",
+ "condition_type": "Python",
+ "creation": "2026-04-17 10:43:56.254871",
+ "date_changed": "insurance_expiry",
+ "days_in_advance": 3,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Vehicle",
+ "enabled": 1,
+ "event": "Days Before",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "Add your message here",
+ "message_type": "Markdown",
+ "minutes_offset": 0,
+ "modified": "2026-04-17 10:43:56.254871",
+ "modified_by": "Administrator",
+ "module": "Rentals",
+ "name": "Insurance Expiry Reminder",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "receiver_by_role": "Script Manager"
+  }
+ ],
+ "send_system_notification": 0,
+ "send_to_all_assignees": 0,
+ "subject": "{{doc.vehicle}}'s Insurance is expire in 3 days"
+}
